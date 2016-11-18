@@ -24,6 +24,7 @@ GRANT ALL ON table_a TO user_wb;
 
 --将V_GET_MSG视图的查询权限赋予user_wb
 GRANT SELECT ON V_GET_MSG TO user_wb;
+
 ```
 
 **3.用user_wb账户登录,即可查询table_a和V_GET_MSG**
