@@ -1,0 +1,27 @@
+title: mysql windows下安装
+categories:
+  - mysql
+date: 2016-07-13 21:49:33
+tags:
+---
+** 下载和解压 **
+
+下载mysql-5.6.31-winx64.zip解压缩至D:\Program Files\mysql-5.6.31-winx64
+
+** 环境变量配置 **
+
+MYSQL_HOME
+```
+D:\Program Files\mysql-5.6.31-winx64
+```
+
+PATH添加
+```
+;%MYSQL_HOME%\bin
+```
+
+服务注册
+打开cmd
+```
+mysqld install MySQL --defaults-file="D:\Program Files\mysql-5.6.31-winx64\my-default.ini"
+```

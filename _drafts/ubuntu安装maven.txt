@@ -1,0 +1,11 @@
+下载apache-maven-3.3.3-bin.tar.gz解压到/usr/local/下
+/etc/profile 末尾添加
+
+```java
+export M2_HOME=/usr/local/apache-maven-3.3.3
+export PATH=$M2_HOME/bin:$PATH
+```
+
+```
+source /etc/profile
+```
